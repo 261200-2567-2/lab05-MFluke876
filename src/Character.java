@@ -8,6 +8,7 @@ public abstract class Character{
     protected int maxHp;
     protected boolean alive = true;
 
+
     public void printStats() {
         System.out.println("---------" + name + "'s stats----------");
         System.out.println("Level: " + level);
